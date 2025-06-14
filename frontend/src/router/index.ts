@@ -4,8 +4,7 @@ import LoginView from '@/views/auth/LoginView.vue'
 import RegisterView from '@/views/auth/RegisterView.vue'
 import DefaultLayout from '@/components/layout/DefaultLayout.vue'
 import HomeView from '@/views/HomeView.vue'
-import SalesInvoiceView from '@/views/SalesInvoiceView.vue'
-import PurchaseInvoiceView from '@/views/PurchaseInvoiceView.vue'
+import InvoiceView from '@/views/InvoiceView.vue'
 import { authStore } from '@/stores/authStore'
 import api from '@/api/api'
 
@@ -40,14 +39,9 @@ const router = createRouter({
           component: HomeView
         },
         {
-          path: '/site/salesInvoice',
-          name: 'salesInvoice',
-          component: SalesInvoiceView
-        },
-        {
-          path: '/site/purchaseInvoice',
-          name: 'purchaseInvoice',
-          component: PurchaseInvoiceView
+          path: '/site/invoice',
+          name: 'invoice',
+          component: InvoiceView
         },
       ]
     },

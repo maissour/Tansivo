@@ -10,3 +10,11 @@ export interface RegisterDto {
     password: string,
     confirmPassword: string
 }
+
+export interface ProductContent {
+    id: number,
+    selectedProd: boolean,
+    prodName: string,
+    prodPrice: string,
+    prodQte: string
+}
