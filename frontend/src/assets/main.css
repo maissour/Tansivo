@@ -1,0 +1,19 @@
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+body {
+  overflow: hidden;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
