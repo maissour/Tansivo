@@ -18,3 +18,10 @@ export interface ProductContent {
     prodPrice: string,
     prodQte: string
 }
+
+export interface Fields {
+    x: number,
+    y: number,
+    text: string,
+    dataFieldAtt: string
+}

@@ -1,5 +1,6 @@
 const french = {
     menu: {
+        createTemplate: "Créer un modèle",
         invoice: "Facture",
         logout: "Déconnexion"
     },
@@ -14,13 +15,16 @@ const french = {
         products: "Liste des Produits",
         enterProductName: "entrer le nom du produit",
         enterProductPrice: "entrer le prix de produit",
-        enterProductQte: "entrer la quantité de produit"
+        enterProductQte: "entrer la quantité de produit",
+        invoiceDate: "Date de la facture",
+        dueDate: "Date d'échéance"
     },
     general: {
         product: "Produit",
         confirm: "Confirmer",
         close: "Fermer",
-        create: "Créer"
+        create: "Créer",
+        text: 'Texte'
     }
 }
 

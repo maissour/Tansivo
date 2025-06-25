@@ -1,5 +1,6 @@
 const english = {
     menu: {
+        createTemplate: "Create template",
         invoice: "Invoice",
         logout: "Logout"
     },
@@ -14,13 +15,16 @@ const english = {
         products: "List of Products",
         enterProductName: "enter product name",
         enterProductPrice: "enter product price",
-        enterProductQte: "enter product quantity"
+        enterProductQte: "enter product quantity",
+        invoiceDate: "Invoice date",
+        dueDate: "Due date"
     },
     general: {
         product: "Product",
         confirm: "Confirm",
         close: "close",
-        create: "Create"
+        create: "Create",
+        text: 'Text'
     }
 }
 

@@ -5,6 +5,7 @@ import RegisterView from '@/views/auth/RegisterView.vue'
 import DefaultLayout from '@/components/layout/DefaultLayout.vue'
 import HomeView from '@/views/HomeView.vue'
 import InvoiceView from '@/views/InvoiceView.vue'
+import CreateTemplateView from '@/views/CreateTemplateView.vue'
 import { authStore } from '@/stores/authStore'
 import api from '@/api/api'
 
@@ -42,6 +43,11 @@ const router = createRouter({
           path: '/site/invoice',
           name: 'invoice',
           component: InvoiceView
+        },
+        {
+          path: '/site/create',
+          name: 'createTemplate',
+          component: CreateTemplateView
         },
       ]
     },

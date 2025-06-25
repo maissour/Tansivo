@@ -63,6 +63,12 @@ export default defineComponent({
                                 <span>{{ $t('menu.invoice') }}</span>
                             </router-link>
                         </li>
+                        <li class="list-group-item bg-light">
+                            <router-link class="d-flex align-items-center gap-2" :to="{ name: 'createTemplate' }">
+                                <span><i class="fa-solid fa-square-plus"></i></span>
+                                <span>{{ $t('menu.createTemplate') }}</span>
+                            </router-link>
+                        </li>
                         <li class="list-group-item bg-light cursor-pointer">
                             <div class="d-flex align-items-center gap-2" @click="logout">
                                 <span><i class="fa-solid fa-arrow-right-from-bracket"></i></span>
