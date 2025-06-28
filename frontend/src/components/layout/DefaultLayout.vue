@@ -3,19 +3,14 @@ import { defineComponent } from 'vue'
 import { authStore } from '@/stores/authStore';
 import { mapStores } from 'pinia';
 import { useRouter } from 'vue-router';
-import { useI18n } from 'vue-i18n';
 
 export default defineComponent({
     setup() {
         const useAuthStore = authStore()
         const router = useRouter()
-        // const { t, locale, availableLocales } = useI18n({ useScope: 'global' })
         return {
             useAuthStore: useAuthStore,
             router: router,
-            // t: t,
-            // locale: locale,
-            // currentLocale: availableLocales
         }
     },
     computed: {

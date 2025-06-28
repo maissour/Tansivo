@@ -82,6 +82,6 @@ router.beforeEach(async (to, from, next) => {
     isAuthChecked = true;
   }
 
-  next(); // Always call next() to proceed
+  next();
 });
 export default router
